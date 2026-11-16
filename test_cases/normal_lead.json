@@ -1,0 +1,19 @@
+{
+  "case_id": "TC-01-normal",
+  "description": "Complete, valid, new lead with all fields present.",
+  "input": {
+    "source": "web_form",
+    "raw_text": "From: Rahul Mehta <rahul.mehta@orbitfreight.com>\nSubject: Automation inquiry\n\nHi Nexora team,\n\nMy name is Rahul Mehta and I am the COO at Orbit Freight Services. We are a logistics company with about 850 employees across India. We need to automate our shipment exception handling and customer follow-up emails. Our budget is around $60,000 for the first year. We would like to go live within 8 weeks.\n\nRegards,\nRahul Mehta"
+  },
+  "expected": {
+    "lead_name": "Rahul Mehta",
+    "company_name": "Orbit Freight Services",
+    "email": "rahul.mehta@orbitfreight.com",
+    "industry": "logistics",
+    "employee_count": 850,
+    "budget": "$60,000",
+    "duplicate_status": "not_duplicate",
+    "validation_status": "valid",
+    "missing_fields": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "TC-03-missing-data",
+  "description": "Vague inquiry with no email, company, or numbers.",
+  "input": {
+    "source": "chat",
+    "raw_text": "Hi, I saw your website and I am interested in your automation tool. Please call me.\n\nThanks,\nSam"
+  },
+  "expected": {
+    "lead_name": null,
+    "company_name": null,
+    "email": null,
+    "employee_count": null,
+    "budget": null,
+    "duplicate_status": "unknown",
+    "validation_status": "invalid"
+  }
+}

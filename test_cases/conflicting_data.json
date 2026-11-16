@@ -1,0 +1,17 @@
+{
+  "case_id": "TC-04-conflicting",
+  "description": "Contradictory employee counts, budgets, urgency and two different emails.",
+  "input": {
+    "source": "email",
+    "raw_text": "From: Linda Park <linda.park@northpeakfinance.com>\nSubject: Need help\n\nHi,\n\nMy name is Linda Park and I am the Head of Digital at NorthPeak Finance. We have 50 employees in our team. We need to automate our client onboarding and KYC document checks. Our budget is $20,000. Finance has also approved up to $200,000 for this. Our total headcount is 5,000 employees across 12 countries. This is urgent, we need it ASAP, but there is no rush really, just exploring options.\n\nReach me at linda@northpeak-capital.com.\n\nRegards,\nLinda Park"
+  },
+  "expected": {
+    "lead_name": "Linda Park",
+    "company_name": "NorthPeak Finance",
+    "email": "linda.park@northpeakfinance.com",
+    "employee_count": null,
+    "budget": null,
+    "urgency": null,
+    "validation_status": "needs_review"
+  }
+}

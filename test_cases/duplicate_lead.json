@@ -1,0 +1,16 @@
+{
+  "case_id": "TC-02-duplicate",
+  "description": "Lead whose email already exists in the CRM.",
+  "input": {
+    "source": "email",
+    "raw_text": "From: Priya Sharma <priya.sharma@acmelogistics.com>\nSubject: Following up\n\nHello,\n\nMy name is Priya Sharma and I am the Director of Operations at Acme Logistics. We are a logistics company with 1,200 employees. We are looking for an AI tool to automate lead qualification and routing. Our budget is $45,000. We need this by next quarter.\n\nBest,\nPriya Sharma"
+  },
+  "expected": {
+    "lead_name": "Priya Sharma",
+    "company_name": "Acme Logistics",
+    "email": "priya.sharma@acmelogistics.com",
+    "employee_count": 1200,
+    "duplicate_status": "duplicate",
+    "validation_status": "valid"
+  }
+}

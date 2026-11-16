@@ -1,0 +1,23 @@
+{
+  "_comment": "Mock CRM used ONLY for read-only duplicate lookups during development. Replace with a real CRM connector later.",
+  "records": [
+    {
+      "crm_id": "CRM-1001",
+      "name": "Priya Sharma",
+      "company": "Acme Logistics",
+      "email": "priya.sharma@acmelogistics.com"
+    },
+    {
+      "crm_id": "CRM-1002",
+      "name": "Daniel Brooks",
+      "company": "Brightwave Health",
+      "email": "d.brooks@brightwavehealth.com"
+    },
+    {
+      "crm_id": "CRM-1003",
+      "name": "Meera Iyer",
+      "company": "Zenith Retail",
+      "email": "meera@zenithretail.in"
+    }
+  ]
+}

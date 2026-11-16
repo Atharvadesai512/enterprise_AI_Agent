@@ -1,0 +1,45 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating system
+.DS_Store
+Thumbs.db
+@'
+
+# Local logs and generated backups
+logs/
+*.bak
+*.backup
+
+# Local test and runtime data
+.pytest_cache/
+'@ | Add-Content .gitignore
